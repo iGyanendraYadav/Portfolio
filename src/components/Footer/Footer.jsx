@@ -28,7 +28,7 @@ const Footer = () => {
             <a href="mailto:gyanindrayadav1@gmail.com" target="_blank" rel="noopener noreferrer">Email</a>
             <a href="https://www.linkedin.com/in/igyanendrayadav/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
             <a href="https://github.com/iGyanendraYadav" target="_blank" rel="noopener noreferrer">GitHub</a>
-           <a href="./">↓  Resume</a>
+            <a href="./Resume.pdf" download={"Resume"}>↓  Resume</a>
            
           </div>
         </div>

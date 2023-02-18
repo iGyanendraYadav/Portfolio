@@ -21,7 +21,7 @@ const Hero = () => {
           </motion.span>
 
           <motion.span  variants={fadeIn('left',"tween",0.2,1)} className="secondaryText">
-           <a href="./html.png" download={"Test"}>↓  Resume</a>
+           <a href="./Resume.pdf" download={"Resume"}>↓  Resume</a>
           </motion.span>
 
 
