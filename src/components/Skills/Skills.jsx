@@ -10,7 +10,7 @@ const Skills = () => {
     variants={staggerChildren}
     initial="hidden"
     whileInView="show"
-    viewport={{ once: false, amount: 0.25 }}
+    viewport={{ once: true, amount: 0.25 }}
     section className={`paddings ${css.wrapper}`}>
 
       <a className="anchor" id="skills"></a>
@@ -23,9 +23,9 @@ const Skills = () => {
         <div className={`flexCenter ${css.heading}`}>
           <span className="primaryText">Skills</span>
           <p style={{ marginTop: "2rem" }}>
-            I got a job that was in accordance with the salary and field of work
+            I have worked with these languages, tools, library and frameworks.
           </p>
-          <p>The process of submitting an appilication was quite cosy</p>
+          
         </div>
 
 

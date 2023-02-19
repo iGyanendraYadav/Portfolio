@@ -24,9 +24,9 @@ export const projectExperience = [
 ];
 
 export const WhatDoIHelp = [
-  "I never get bored while designing a website. Designing is something that we can always improve or try to improve than the earliers.",
+  "I never get bored while designing a website. Designing is something that we can always improve or try to make better than earlier.",
   
-  "Since, Google is also focus on mobile first approach. That is why I always keep it in my mind to make website responsive for different resolutions and devices.",
+  "Since Google focuses on a mobile-first approach. That's why I always keep it in my mind to make the website responsive for different resolutions and devices.",
 ];
 
 export const workExp = [
@@ -35,7 +35,7 @@ export const workExp = [
     tenure: "March 2022 - Present",
     role: "Analyst",
     detail:
-      "As Analyst, I have to work on some other additional works also, like CHANGE Management(Creating, Documenting & Reviewing the CHANGE). I have also worked in Windows AD Team.",
+      "As Analyst, I have to work on some other additional works also, like CHANGE Management(Creating, Documenting & Reviewing the CHANGE).",
   },
   {
     place: "HCL Technologies, Noida",
