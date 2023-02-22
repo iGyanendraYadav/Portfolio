@@ -27,6 +27,15 @@
             }
 
             .progressbar {
+                @media (max-width: $sm) {
+                    position: absolute;
+                    height: 100%;
+                    display: flex;
+                    flex-direction: column;
+                    gap: 60px;
+                    // gap: 4.5rem;
+                    left: 45%;
+                }
                 position: absolute;
                 height: 100%;
                 display: flex;
@@ -35,8 +44,20 @@
                 left: 45%;
 
                 .line {
+                    @media (max-width: $sm) {
+                        position: absolute;
+                        height: 99%;
+                        width: 2px;
+                        background-image: linear-gradient(black 33%, rgba(255,255,255,0) 0%);
+                        background-position: right;
+                        background-size: 2px 30px;
+                        background-repeat: repeat-y;
+                        left: 48%;
+                        z-index: 1;
+                        border-radius: 5px;
+                    }
                     position: absolute;
-                    height: 92%;
+                    height: 97%;
                     width: 2px;
                     background-image: linear-gradient(black 33%, rgba(255,255,255,0) 0%);
                     background-position: right;
@@ -54,6 +75,11 @@
                     z-index: 2;
 
                     .circle {
+                        @media (max-width: $sm) {
+                            width: 1.2rem;
+                            height: 1.2rem;
+                        }
+
                         border-radius: 50%;
                         width: 1.2rem;
                         height: 1.2rem;

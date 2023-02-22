@@ -32,14 +32,21 @@ export const WhatDoIHelp = [
 export const workExp = [
   {
     place: "HCL Technologies, Noida",
-    tenure: "March 2022 - Present",
+    tenure: "July 2022 - Present",
+    role: "Front-End Developer",
+    detail:
+      "As a Front-End Developer, here my responsibily is to create beautiful interfaces, fixing issue related to UI and to make necessary modifications.",
+  },
+  {
+    place: "HCL Technologies, Noida",
+    tenure: "March 2021 - June 2022",
     role: "Analyst",
     detail:
       "As Analyst, I have to work on some other additional works also, like CHANGE Management(Creating, Documenting & Reviewing the CHANGE).",
   },
   {
     place: "HCL Technologies, Noida",
-    tenure: "Dec 2019 - Feb 2022",
+    tenure: "Dec 2019 - Feb 2021",
     role: "Graduate Trainee Engineer",
     detail:
       "Here, my responsibility was to manage Incidents, RITMs and to provide the solution as soon as possible.",
