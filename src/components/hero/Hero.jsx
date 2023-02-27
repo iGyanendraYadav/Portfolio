@@ -21,19 +21,15 @@ const Hero = () => {
           </motion.span>
 
           <motion.span  variants={fadeIn('left',"tween",0.2,1)} className="secondaryText">
-           <a href="./Resume.pdf" download={"Resume"}>↓  Resume</a>
+           <a href="./Resume.docx" download={"Resume"}>↓  Resume</a>
           </motion.span>
 
 
-          {/* <motion.span  variants={fadeIn('left',"tween",0.2,1)} className="secondaryText">
-            I love to design
-            <br />
-            attractive and responsive website.
-          </motion.span> */}
+
         </div>
 
         <div className={css.person}>
-            <motion.img variants={slideIn('up',"tween",0.5,1.3)} src="./gyan2.png" alt="" />
+            <motion.img variants={slideIn('right',"tween",0.5,1.3)} src="./gyan2.png" alt="" />
         </div>
 
         <motion.a variants={fadeIn('right',"tween",0.3,1)} className={css.email} href="mailto:gyanindrayadav1@gmail.com">gyanindrayadav1@gmail.com</motion.a>
@@ -53,7 +49,7 @@ const Hero = () => {
           <motion.div variants={fadeIn('left',"tween",0.5,1)} className={css.certificate}>
             <img src="./certificate.png" alt="" />
             <span>FRONT-END  DEVELOPER</span>
-            <span>(Desired Role)</span>
+            {/* <span>(Desired Role)</span> */}
           </motion.div>
         </div>
       </motion.div>
